@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{6eb50659-599c-4cbc-9e2f-9f22d612019f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{43f69874-5900-4f5a-9651-4528cd46bd99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utilties">
+      <UniqueIdentifier>{857fbaf3-92b9-467d-83b6-0ba3c795429a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilties\Hooking">
+      <UniqueIdentifier>{bcefe50c-a2c9-4cbe-b893-e8c6273f8f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilties\Netvars">
+      <UniqueIdentifier>{606ac57a-2439-4878-870e-0f95855a695b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilties\Offsets">
+      <UniqueIdentifier>{bd6555df-f954-4b9c-8319-d175d0e01746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilties\Interfaces">
+      <UniqueIdentifier>{aae8e3d5-11c7-4a6c-b8c3-98bf957f1e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilties\FindPattern">
+      <UniqueIdentifier>{6664f4de-63a3-45d5-9cd1-0ae2590ee4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{aa318cbd-dbe5-4b8e-bcd0-5a7653c468f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{551b7a5a-634d-4fc1-bdd8-a04dd23a9a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\DX9">
+      <UniqueIdentifier>{df9b3238-728d-4e75-9d71-af4679dad8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilties\Math">
+      <UniqueIdentifier>{613c20c9-45e4-4702-8d8a-88ff3ed55721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Aimbot">
+      <UniqueIdentifier>{e3cf55d4-3634-4e6b-9f93-0a1ef3a3428c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Misc">
+      <UniqueIdentifier>{fda62d4f-aedb-4526-9ca6-1e6c482d125a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Visuals">
+      <UniqueIdentifier>{d625a3cd-127f-4758-9b72-1f8e70a2694c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Autowall">
+      <UniqueIdentifier>{24f14d6a-f31e-4454-884b-70a9eeb71cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilties\Config">
+      <UniqueIdentifier>{d74c4bae-8955-4316-aa85-3209b1e0ce6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Triggerbot">
+      <UniqueIdentifier>{b443577e-4f85-4bcf-a1a6-5054f3374cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Skinchanger">
+      <UniqueIdentifier>{7ba4e839-b6a8-451c-a179-c32d59b6a159}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Util.h">
+      <Filter>Utilties</Filter>
+    </ClInclude>
+    <ClInclude Include="VTableHook.h">
+      <Filter>Utilties\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDll.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Recv.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC_32.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientMode.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Engine.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="NetvarManager.h">
+      <Filter>Utilties\Netvars</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Utilties\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Setup.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Utilties\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="FindPattern.h">
+      <Filter>Utilties\FindPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>ImGui\DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Utilties\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Convar.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowManager.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVarsBase.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Prediction.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="MDLCache.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelInfo.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="StudioRender.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Utilties\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterial.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SpoofedConvar.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintKit.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialSystem.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValues.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRender.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderView.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="BackTrack.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>Hack\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectiveDLLInjection.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectiveLoader.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Collidable.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinChanger.h">
+      <Filter>Hack\Skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Localize.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Utilties</Filter>
+    </ClCompile>
+    <ClCompile Include="IBaseClientDll.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC_32.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Utilties\Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Setup.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Utilties\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Createmove.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9Device.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>ImGui\DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Utilties\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Hack\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="NoRecoil.cpp">
+      <Filter>Hack\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="ClampAngles.cpp">
+      <Filter>Hack\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Bunnyhop.cpp">
+      <Filter>Hack\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Hack\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="GetViewModelFOV.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="AimbotChecks.cpp">
+      <Filter>Hack\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameStageNotify.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Prediction.cpp">
+      <Filter>Hack\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>Hack\Autowall</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Hack\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>Hack\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="FindMDL.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hitbox.cpp">
+      <Filter>Hack\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginFrame.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoStop.cpp">
+      <Filter>Hack\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Utilties\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTraverse.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBox.cpp">
+      <Filter>Hack\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Hack\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldToScreen.cpp">
+      <Filter>Hack\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>Hack\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawName.cpp">
+      <Filter>Hack\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoStrafe.cpp">
+      <Filter>Hack\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="NameChanger.cpp">
+      <Filter>Hack\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConvar.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdperson.cpp">
+      <Filter>Hack\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="LagCompensation.cpp">
+      <Filter>Hack\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="OverrideView.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeLag.cpp">
+      <Filter>Hack\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawModelExecute.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolver.cpp">
+      <Filter>Hack\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Hack\Triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerbotChecks.cpp">
+      <Filter>Hack\Triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectiveDll.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectiveLoader.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySound.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinChanger.cpp">
+      <Filter>Hack\Skinchanger</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
